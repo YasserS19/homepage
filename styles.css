@@ -3,15 +3,12 @@
   margin: 0;
 }
 
-body {
-  background-color: #151515;
-}
-
 header {
   display: flex;
   flex: 1;
+  align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
   color: white;
   background-color: #1f2937;
 }
@@ -26,6 +23,18 @@ header {
 }
 .links a {
   text-decoration: none;
-
   color: #e5e7eb;
+  transition: all 0.5s ease 0s;
+}
+.links a:hover {
+  color: #b3ccff;
+}
+header button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: none;
+  cursor: pointer;
+  background-color: #3882f6;
+  border-radius: 50px;
 }
