@@ -27,7 +27,7 @@ header {
   transition: all 0.5s ease 0s;
 }
 .links a:hover {
-  color: #b3ccff;
+  color: lightblue;
 }
 header button {
   padding: 15px 30px;
@@ -36,5 +36,9 @@ header button {
   border: none;
   cursor: pointer;
   background-color: #3882f6;
-  border-radius: 50px;
+  border-radius: 15px;
+  transition: all 0.5s ease 0s;
+}
+header button:hover {
+  background-color: #3871d8;
 }
