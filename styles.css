@@ -103,7 +103,7 @@ header {
 .avatars img {
   width: 20%;
   border-radius: 1.5rem;
-  border: 0.5rem solid lightblue;
+  border: 0.5rem solid #3882f6;
 }
 .part-3 {
   background-color: #e5e7eb;
