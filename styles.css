@@ -107,13 +107,13 @@ header {
 .part-3 {
   background-color: #e5e7eb;
   padding: 3rem 20%;
-  font-size: 1.5rem;
 }
 .part-3 p {
+  font-size: 1.75rem;
   color: #1f2937;
   font-style: italic;
 }
-.part-3 h3 {
+.part-3 h2 {
   text-align: end;
 }
 .part-4 {
