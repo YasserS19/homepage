@@ -7,10 +7,9 @@
 header {
   display: flex;
   flex: 1;
-  padding: 0rem 10%;
+  padding: 2rem 10%;
   align-items: center;
   justify-content: space-between;
-  height: 5rem;
   color: white;
   background-color: #1f2937;
 }
@@ -64,7 +63,7 @@ header {
   color: white;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 10%;
+  padding: 1rem 10% 3rem 10%;
   background-color: #1f2937;
 }
 .part-1.left {
@@ -85,7 +84,7 @@ header {
   border-radius: 1.5rem;
 }
 .part-2 {
-  padding: 3rem 10%;
+  padding: 2rem 10%;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -107,7 +106,7 @@ header {
 }
 .part-3 {
   background-color: #e5e7eb;
-  padding: 3rem 20%;
+  padding: 2rem 20%;
 }
 .part-3 p {
   font-size: 1.75rem;
@@ -123,8 +122,8 @@ header {
   flex: 1;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 10%;
-  margin: 4rem 10%;
+  padding: 3rem 10%;
+  margin: 2rem 10%;
   border-radius: 0.75rem;
   background-color: #3882f6;
 }
@@ -148,7 +147,7 @@ header {
   transition: all 0.5s ease 0s;
 }
 footer {
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 1rem;
   background-color: #1f2937;
   text-align: center;
