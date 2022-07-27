@@ -22,10 +22,6 @@ header {
   color: #e5e7eb;
   transition: all 0.5s ease 0s;
 }
-
-.home a:hover {
-  color: lightblue;
-}
 .home img {
   height: 2rem;
   margin-right: 1rem;
@@ -41,7 +37,8 @@ header {
   color: #e5e7eb;
   transition: all 0.5s ease 0s;
 }
-.links a:hover {
+.links a:hover,
+.home p:hover {
   color: lightblue;
 }
 .btn {
@@ -54,8 +51,9 @@ header {
   border-radius: 1rem;
   transition: all 0.5s ease 0s;
 }
-.btn:hover {
-  background-color: #3871d8;
+.btn:hover,
+.btn-signup:hover {
+  background-color: #2b63bd;
 }
 .part-1 {
   display: flex;
